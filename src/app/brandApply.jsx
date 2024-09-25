@@ -175,7 +175,7 @@ export default function BrandApply() {
                     </div>
                 </div>
                 <div className={styles.information}>
-                    <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.tel}`} placeholder='연락처를 입력해주세요' type="tel" pattern='(010)-\d{3,4}-\d{4}'/></div>
+                    <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.tel}`} placeholder='연락처를 - 포함해서 입력해주세요' type="tel" pattern='(010)-\d{3,4}-\d{4}'/></div>
                     <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.email}`} placeholder='이메일를 입력해주세요' type="email" pattern='[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$'/></div>
                     <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.product_url_1}`} placeholder='상품 상세페이지 URL (1)' type="url" pattern='https?://.+'/></div>
                     <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.product_url_2}`} placeholder='상품 상세페이지 URL (2)' type="url" pattern='https?://.+'/></div>

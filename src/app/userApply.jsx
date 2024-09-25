@@ -61,7 +61,7 @@ export default function UserApply(){
             </div>
             <div className={styles.information}>
                 <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.name}`} placeholder='이름을 입력해주세요'/></div>
-                <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.tel}`} placeholder='연락처를 입력해주세요'/></div>
+                <div className={`${styles.inputWrap}`}><input className={`${styles.input} ${styles.tel}`} placeholder='연락처를 - 포함해서 입력해주세요'/></div>
             </div>
 
             <div className={styles.agree}>
